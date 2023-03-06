@@ -1,0 +1,7 @@
+.footer__column-link_type_vk {
+	display: inline-block;
+	background: url(../../../../images/vk_color_white.svg) no-repeat left center;
+	background-size: 16px;
+	padding-left: 26px;
+	vertical-align: bottom;
+}

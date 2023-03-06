@@ -1,0 +1,15 @@
+.header__link {
+	transition: opacity 0.5s;
+	z-index: 4;
+	text-decoration: none;
+	color: #2f80ed;
+}
+.header__link::before {
+	content: '\0020';
+}
+.header__link::after {
+	content: '\0020\2192';
+}
+.header__link:hover {
+	opacity: 0.7;
+}
